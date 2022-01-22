@@ -1,3 +1,6 @@
  
 (int ,main)
 (int ,x)
+(float ,f)
+(int ,a)
+(int ,x) ,a) ,x) ,x) ,a) ,printf) ,a) ,x) ,x) ,a) ,printf) ,a) ,x) ,x) ,a) ,x) ,a)

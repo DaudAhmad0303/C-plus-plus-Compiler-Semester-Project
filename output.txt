@@ -1,22 +1,155 @@
-< DIRECTIVE, #include<iostream.h> >
+< DIRECTIVE, #include<stdio.h> >
+< DIRECTIVE, #include<string.h> >
 < DATATYPE, int >
 < DELIMITER, ' ' >
 < ID, main >
 < SYMBOL, ( >
 < SYMBOL, ) >
+< DELIMITER, ' ' >
 < SYMBOL, { >
 < DELIMITER, '    ' >
 < DATATYPE, int >
 < DELIMITER, ' ' >
 < ID, x >
+< SYMBOL, = >
+< INTEGR LITERAL, 1 >
+< SYMBOL, ; >
+< DELIMITER, '    ' >
+< DATATYPE, float >
+< DELIMITER, ' ' >
+< ID, f >
+< SYMBOL, ; >
+< DELIMITER, '    ' >
+< DATATYPE, int >
+< DELIMITER, ' ' >
+< ID, a >
+< SYMBOL, = >
+< INTEGR LITERAL, 3 >
+< SYMBOL, ; >
+< DELIMITER, '    ' >
+< DATATYPE, int >
+< DELIMITER, ' ' >
+< ID, x >
+< SYMBOL, ; >
+< DELIMITER, '    ' >
+< ID, a >
 < DELIMITER, ' ' >
 < SYMBOL, = >
 < DELIMITER, ' ' >
-< INTEGR LITERAL, 0 >
+< ID, x >
+< DELIMITER, ' ' >
+< OP, * >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 3 >
+< DELIMITER, ' ' >
+< OP, + >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 5 >
 < SYMBOL, ; >
 < DELIMITER, '    ' >
-< KW, return >
+< KW, if >
+< SYMBOL, ( >
+< ID, x >
+< OP, > >
+< ID, a >
+< SYMBOL, ) >
 < DELIMITER, ' ' >
-< INTEGR LITERAL, 0 >
+< SYMBOL, { >
+< DELIMITER, '        ' >
+< ID, printf >
+< SYMBOL, ( >
+< STRING LITERAL, ""Hi!"" >
+< SYMBOL, ) >
 < SYMBOL, ; >
+< DELIMITER, '        ' >
+< ID, a >
+< DELIMITER, ' ' >
+< SYMBOL, = >
+< DELIMITER, ' ' >
+< ID, x >
+< DELIMITER, ' ' >
+< OP, * >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 3 >
+< DELIMITER, ' ' >
+< OP, + >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 100 >
+< SYMBOL, ; >
+< DELIMITER, '        ' >
+< KW, if >
+< SYMBOL, ( >
+< ID, x >
+< OP, > >
+< ID, a >
+< SYMBOL, ) >
+< DELIMITER, ' ' >
+< SYMBOL, { >
+< DELIMITER, '            ' >
+< ID, printf >
+< SYMBOL, ( >
+< STRING LITERAL, ""Hi!"" >
+< SYMBOL, ) >
+< SYMBOL, ; >
+< DELIMITER, '            ' >
+< ID, a >
+< DELIMITER, ' ' >
+< SYMBOL, = >
+< DELIMITER, ' ' >
+< ID, x >
+< DELIMITER, ' ' >
+< OP, * >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 3 >
+< DELIMITER, ' ' >
+< OP, + >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 100 >
+< SYMBOL, ; >
+< DELIMITER, '        ' >
+< SYMBOL, } >
+< DELIMITER, '        ' >
+< KW, else >
+< DELIMITER, ' ' >
+< SYMBOL, { >
+< DELIMITER, '            ' >
+< ID, x >
+< DELIMITER, ' ' >
+< SYMBOL, = >
+< DELIMITER, ' ' >
+< ID, a >
+< DELIMITER, ' ' >
+< OP, * >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 3 >
+< DELIMITER, ' ' >
+< OP, + >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 100 >
+< SYMBOL, ; >
+< DELIMITER, '        ' >
+< SYMBOL, } >
+< DELIMITER, '    ' >
+< SYMBOL, } >
+< DELIMITER, '    ' >
+< KW, else >
+< DELIMITER, ' ' >
+< SYMBOL, { >
+< DELIMITER, '        ' >
+< ID, x >
+< DELIMITER, ' ' >
+< SYMBOL, = >
+< DELIMITER, ' ' >
+< ID, a >
+< DELIMITER, ' ' >
+< OP, * >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 3 >
+< DELIMITER, ' ' >
+< OP, + >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 100 >
+< SYMBOL, ; >
+< DELIMITER, '    ' >
+< SYMBOL, } >
 < SYMBOL, } >
