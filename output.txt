@@ -1,0 +1,22 @@
+< DIRECTIVE, #include<iostream.h> >
+< DATATYPE, int >
+< DELIMITER, ' ' >
+< ID, main >
+< SYMBOL, ( >
+< SYMBOL, ) >
+< SYMBOL, { >
+< DELIMITER, '    ' >
+< DATATYPE, int >
+< DELIMITER, ' ' >
+< ID, x >
+< DELIMITER, ' ' >
+< SYMBOL, = >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 0 >
+< SYMBOL, ; >
+< DELIMITER, '    ' >
+< KW, return >
+< DELIMITER, ' ' >
+< INTEGR LITERAL, 0 >
+< SYMBOL, ; >
+< SYMBOL, } >
